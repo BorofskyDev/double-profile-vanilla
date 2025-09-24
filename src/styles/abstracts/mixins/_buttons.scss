@@ -1,3 +1,24 @@
-@mixin button-base {
-    
+@use './accessibility' as a11y;
+
+@mixin button-base($padding, $border) {
+  padding: $padding;
+  border: $border;
+  border-radius: var(--br-600);
+  font-family: var(--ff-link);
+  box-shadow: var(--shadow-200);
+  transition: var(--transition-btn);
+
+  &:hover {
+    box-shadow: var(--shadow-400);
+    transform: scale(1.05);
+  }
+
+  &:active {
+    box-shadow: var(--shadow-100);
+    transform: scale(0.95);
+  }
+
+  @include a11y.focused;
+
+
 }

@@ -3,14 +3,29 @@
 
 .site-banner {
   @include m.page-setup;
+  @include m.grid-center;
   padding: var(--p-md) var(--p-xl2);
   text-align: center;
+  border-bottom: var(--border-2);
+
+  @include m.breakpoint(md) {
+    padding: var(--p-lg) var(--p-xl2);
+  }
+
+  @include m.breakpoint(lg) {
+    padding: var(--p-xl) var(--p-xl2);
+  }
+
+  @include m.breakpoint(xl) {
+    padding: var(--p-xl2) var(--p-xl3);
+  }
 
   &__name {
     font-family: var(--ff-heading);
     text-transform: uppercase;
-    font-size: f.px-to-rem(36);
+    font-size: clamp(2rem, calc(0.893rem + 5.536vw), 5.875rem);
     font-weight: var(--fw-black);
     line-height: var(--lh-900);
+    letter-spacing: var(--ls-wide);
   }
 }

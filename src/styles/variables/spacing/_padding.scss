@@ -10,6 +10,7 @@
     --p-xl2: #{px-to-rem(64)};
     --p-xl3: #{px-to-rem(96)};
 
-    
+    --p-btn-md: var(--p-xs) var(--p-md);
+    --p-btn-lg: var(--p-sm) var(--p-lg);
 
 }

@@ -1,29 +1,10 @@
 :root {
-    --bg-primary: ;
-    --bg-secondary: ;
-    --bg-neutral: ;
+    --bg-theme-toggle: var(--neutral-200);
+    --bg-theme-toggle-hover: var(--stone-100);
 
-    --bg-btn-primary: ;
-    --bg-btn-secondary: ;
-    --bg-btn-neutral: ;
-    
-    --bg-warning: ;
-    --bg-success: ;
-    --bg-error: ;
-    --bg-alert: ;
 }
 
 [data-theme="dark"] {
-    --bg-primary: ;
-    --bg-secondary: ;
-    --bg-neutral: ;
-
-    --bg-btn-primary: ;
-    --bg-btn-secondary: ;
-    --bg-btn-neutral: ;
-
-    --bg-warning: ;
-    --bg-success: ;
-    --bg-error: ;
-    --bg-alert: ;
+    --bg-theme-toggle: var(--neutral-800);
+    --bg-theme-toggle-hover: var(--stone-900);
 }

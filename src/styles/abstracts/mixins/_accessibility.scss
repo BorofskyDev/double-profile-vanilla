@@ -1,8 +1,8 @@
 @mixin focused {
     &:focus-visible {
-        outline: var(--border-4);
+        outline: var(--border-6);
         outline-offset: 4px;
-        outline-color: var(--blue-400);
+        outline-color: var(--ruby-600);
     }
     
     &:focus:not(:focus-visible) {

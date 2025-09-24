@@ -1,0 +1,14 @@
+@use '@/styles/abstracts/mixins' as m;
+
+.theme-toggle {
+    @include m.button-base(var(--p-btn-md), var(--border-4));
+    background-color: var(--bg-theme-toggle);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-400);
+
+    &:hover, &:focus {
+        background-color: var(--bg-theme-toggle-hover);
+        
+    }
+
+}
