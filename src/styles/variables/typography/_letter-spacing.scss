@@ -1,0 +1,9 @@
+@use '@/styles/abstracts/functions' as f;
+
+:root {
+    --ls-tight: -f/px-to-rem(1);
+    --ls-normal: f/px-to-rem(0);
+    --ls-wide: f/px-to-rem(2);
+    --ls-wider: f/px-to-rem(4);
+    --ls-widest: f/px-to-rem(8);
+}

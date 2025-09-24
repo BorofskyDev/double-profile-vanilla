@@ -1,0 +1,39 @@
+@mixin heading(
+  $margin,
+  $weight,
+  $size,
+  $line-height,
+  $text-transform: capitalize
+) {
+  margin: $margin;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $line-height;
+  text-transform: $text-transform;
+}
+
+@mixin heading-style($level) {
+  @if $level == 1 {
+  
+  }
+
+  @if $level == 2 {
+   
+  }
+
+  @if $level == 3 {
+  
+  }
+
+  @if $level == 4 {
+
+  }
+
+  @if $level == 5 {
+
+  }
+
+  @if $level == 6 {
+
+  }
+}

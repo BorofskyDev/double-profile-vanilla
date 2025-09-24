@@ -1,0 +1,12 @@
+@use '@/styles/abstracts/functions' as *;
+
+:root {
+    --g-xs2: #{px-to-rem(4)};
+    --g-xs: #{px-to-rem(8)};
+    --g-sm: #{px-to-rem(12)};
+    --g-md: #{px-to-rem(16)};
+    --g-lg: #{px-to-rem(20)};
+    --g-xl: #{px-to-rem(24)};
+    --g-xl2: #{px-to-rem(28)};
+    --g-xl3: #{px-to-rem(32)};
+}

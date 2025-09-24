@@ -1,0 +1,39 @@
+@mixin text(
+  $font-family: var(--font-text),
+  $font-size: var(--fs-300),
+  $line-height: var(--lh-300),
+  $font-weight: var(--fw-normal)
+) {
+  margin: var(--margin-center);
+  font-family: $font-family;
+  font-size: $font-size;
+  line-height: $line-height;
+  font-weight: $font-weight;
+  color: var(--text);
+  max-width: var(--max-paragraph-width);
+}
+
+@mixin text-style($level) {
+  @if $level == 1 {
+    @include text;
+  }
+
+  @if $level == 2 {
+   
+  }
+
+  @if $level == 3 {
+    
+  }
+
+  @if $level == 4 {
+ 
+  }
+
+  @if $level == 5 {
+   
+  }
+  @if $level == 6 {
+   
+  }
+}

@@ -1,0 +1,16 @@
+@use '@/styles/abstracts/mixins' as m;
+@use '@/styles/abstracts/functions' as f;
+
+.site-banner {
+  @include m.page-setup;
+  padding: var(--p-md) var(--p-xl2);
+  text-align: center;
+
+  &__name {
+    font-family: var(--ff-heading);
+    text-transform: uppercase;
+    font-size: f.px-to-rem(36);
+    font-weight: var(--fw-black);
+    line-height: var(--lh-900);
+  }
+}

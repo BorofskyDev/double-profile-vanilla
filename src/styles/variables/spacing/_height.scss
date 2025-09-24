@@ -1,0 +1,26 @@
+@use '@/styles/abstracts/functions' as *;
+
+:root {
+  --h-100: 100%;
+  --h-75: 75%;
+  --h-50: 50%;
+  --h-25: 25%;
+  --h-auto: auto;
+  --h-screen: 100dvh;
+  --h-min-content: min-content;
+  --h-max-content: max-content;
+  --h-fit-content: fit-content;
+  --h-inherit: inherit;
+  --h-initial: initial;
+  --h-unset: unset;
+
+  --h-xs2: #{px-to-rem(64)};
+  --h-xs: #{px-to-rem(128)};
+  --h-sm: #{px-to-rem(256)};
+  --h-md: #{px-to-rem(384)};
+  --h-lg: #{px-to-rem(512)};
+  --h-xl: #{px-to-rem(640)};
+  --h-xl2: #{px-to-rem(768)};
+  --h-xl3: #{px-to-rem(896)};
+  --h-screen-max: #{px-to-rem(1080)};
+}

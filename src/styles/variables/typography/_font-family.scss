@@ -1,0 +1,15 @@
+:root {
+  --font-sans: 'Atkinson Hyperlegible Next', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol';
+
+  --font-mono: 'Atkinson Hyperlegible Mono', SFMono-Regular, Menlo, Monaco,
+    Consolas, 'Liberation Mono', 'Courier New', monospace;
+
+  --font-serif: 'Playfair Display Var', Georgia, Cambria, 'Times New Roman',
+    Times, serif;
+
+  --ff-heading: var(--font-serif);
+  --ff-body: var(--font-sans);
+  --ff-link: var(--font-mono);
+}

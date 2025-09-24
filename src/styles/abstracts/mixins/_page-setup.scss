@@ -1,0 +1,4 @@
+@mixin page-setup {
+  max-width: var(--w-screen-max);
+  margin: 0 auto;
+}

@@ -1,0 +1,15 @@
+@use '@/styles/abstracts/functions' as *;
+
+:root {
+    --p-xs2: #{px-to-rem(8)};
+    --p-xs: #{px-to-rem(12)};
+    --p-sm: #{px-to-rem(16)};
+    --p-md: #{px-to-rem(24)};
+    --p-lg: #{px-to-rem(32)};
+    --p-xl: #{px-to-rem(48)};
+    --p-xl2: #{px-to-rem(64)};
+    --p-xl3: #{px-to-rem(96)};
+
+    
+
+}
